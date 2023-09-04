@@ -1,0 +1,81 @@
+body {
+    margin: 0
+}
+
+body>header {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(213, 55, 129, 255)
+}
+
+header>p {
+    color: white;
+}
+
+h1 {
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-family: sans-serif, Arial, Helvetica;
+    color: white;
+    background: rgb(252, 139, 192);
+    margin: 0
+}
+
+h3 {
+    padding-left: 6rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    font-family: sans-serif, Arial, Helvetica;
+    color: white;
+    background: rgb(252, 139, 192);
+    margin: 0
+}
+
+h2 {
+    padding-left: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: sans-serif, Arial, Helvetica;
+    color: white;
+    background: rgb(252, 139, 192);
+    margin: 0
+}
+
+section>h1 {
+    font-family: sans-serif, Arial, Helvetica;
+    color: rgb(213, 55, 129, 255);
+    background-color: white;
+}
+
+section>form {
+    padding-left: 6rem;
+}
+
+li {
+    list-style: none;
+    padding-left: 3.5rem;
+    font-family: sans-serif, Arial, Helvetica;
+    color: rgb(252, 139, 192);
+    line-height: 2;
+}
+
+li>a {
+    color: rgb(252, 139, 192); 
+}
+
+.search-bar {
+    width: 500px;
+    height: 30px;
+    border-style: solid;
+}
+
+footer {
+    font-family: sans-serif, Arial, Helvetica;
+    color: rgb(213, 55, 129, 255);
+    text-align: center;
+    padding: 4rem;
+    font-size: 50px;
+}
